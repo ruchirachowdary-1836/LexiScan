@@ -1,0 +1,139 @@
+MASTER SERVICE AGREEMENT
+
+This Master Service Agreement ("Agreement") is entered into as of January 15, 2024,
+by and between Acme Corporation, Inc., a Delaware corporation ("Client"), and
+Vendor LLC, a California limited liability company ("Vendor"), collectively referred
+to as the "Parties."
+
+RECITALS
+
+WHEREAS, Client desires to obtain certain software development and consulting services;
+WHEREAS, Vendor has the expertise and capability to provide such services;
+NOW, THEREFORE, in consideration of the mutual covenants herein, the Parties agree:
+
+1. SERVICES
+
+1.1 Scope of Services. Vendor agrees to provide software development, technical consulting,
+and related services (the "Services") as described in Statements of Work ("SOW") executed
+by both Parties. Each SOW shall specify deliverables, timelines, and compensation.
+
+1.2 Standard of Performance. Vendor shall perform all Services in a professional and
+workmanlike manner consistent with industry standards. Vendor shall assign qualified
+personnel to perform the Services.
+
+2. PAYMENT TERMS
+
+2.1 Fees. Client shall pay Vendor the fees specified in each SOW within thirty (30) days
+of receipt of invoice. All amounts are in United States Dollars (USD).
+
+2.2 Late Payment. Payments not received within the due date shall accrue interest at
+1.5% per month (18% per annum) from the due date until paid.
+
+2.3 Expenses. Client shall reimburse Vendor for all pre-approved, reasonable, and
+documented out-of-pocket expenses incurred in performing the Services.
+
+3. INTELLECTUAL PROPERTY
+
+3.1 Work for Hire. All work product, deliverables, software, code, documentation, and
+materials created by Vendor under this Agreement shall be considered "work made for hire"
+as defined under the U.S. Copyright Act. Client shall own all intellectual property rights,
+title, and interest in and to all deliverables.
+
+3.2 Assignment. To the extent any deliverable does not qualify as work made for hire,
+Vendor hereby irrevocably assigns to Client all rights, title, and interest therein,
+including all patent, copyright, and trade secret rights.
+
+3.3 Pre-Existing IP. Vendor retains ownership of any pre-existing intellectual property
+("Background IP") incorporated into deliverables. Vendor grants Client a perpetual,
+royalty-free license to use such Background IP solely in connection with the deliverables.
+
+4. CONFIDENTIALITY
+
+4.1 Obligations. Each Party agrees to maintain in strict confidence all Confidential
+Information of the other Party and not to disclose such information to any third party
+without prior written consent. "Confidential Information" means any non-public information
+disclosed by one Party to the other in connection with this Agreement.
+
+4.2 Exceptions. Confidentiality obligations do not apply to information that: (a) is or
+becomes publicly known through no breach of this Agreement; (b) was rightfully known before
+disclosure; or (c) is required to be disclosed by law or court order.
+
+5. INDEMNIFICATION
+
+5.1 Vendor Indemnification. Vendor shall indemnify, defend, and hold harmless Client and
+its officers, directors, employees, and agents (collectively, "Client Indemnitees") from
+and against any and all claims, damages, losses, costs, and expenses (including reasonable
+attorneys' fees) arising out of or relating to: (a) Vendor's breach of this Agreement;
+(b) Vendor's negligent or wrongful acts or omissions; or (c) any infringement of third-party
+intellectual property rights by Vendor's deliverables.
+
+6. LIMITATION OF LIABILITY
+
+6.1 NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THIS AGREEMENT, VENDOR SHALL HAVE
+ABSOLUTELY NO LIMITATION ON LIABILITY AND CLIENT MAY RECOVER UNLIMITED DAMAGES from Vendor
+in the event of gross negligence, willful misconduct, fraud, or intentional breach.
+VENDOR'S TOTAL CUMULATIVE LIABILITY TO CLIENT IS UNCAPPED AND UNLIMITED.
+
+6.2 Exclusion of Consequential Damages. Except as set forth in Section 6.1, in no event
+shall either Party be liable for any indirect, incidental, special, or consequential damages.
+
+7. NON-COMPETE AND NON-SOLICITATION
+
+7.1 Non-Compete. During the term of this Agreement and for a period of two (2) years
+following its termination, Vendor shall not, directly or indirectly, engage in, own,
+manage, operate, or participate in any business that competes with Client's business
+in any market in which Client operates or has operated during the preceding 24 months.
+
+7.2 Non-Solicitation. For a period of two (2) years following termination, Vendor shall
+not directly or indirectly solicit or hire any employee, contractor, or consultant of
+Client who was involved in the Services during the term of this Agreement.
+
+8. TERM AND TERMINATION
+
+8.1 Term. This Agreement commences on the Effective Date and continues for one (1) year
+("Initial Term"), with automatic renewal for successive one-year terms unless either party
+provides written notice of non-renewal at least ninety (90) days prior to the end of the
+then-current term.
+
+8.2 Termination for Convenience. Either party may terminate this Agreement for any reason
+or no reason upon thirty (30) days prior written notice to the other party.
+
+8.3 Termination for Cause. Either party may terminate immediately upon written notice if
+the other party materially breaches this Agreement and fails to cure such breach within
+fifteen (15) days of written notice.
+
+9. GOVERNING LAW AND DISPUTE RESOLUTION
+
+9.1 Governing Law. This Agreement shall be governed by and construed in accordance with
+the laws of the State of Delaware, without giving effect to any choice of law provisions.
+
+9.2 Arbitration. Any dispute arising out of or relating to this Agreement shall be resolved
+by binding arbitration administered by the American Arbitration Association under its
+Commercial Arbitration Rules. The arbitration shall be conducted in Wilmington, Delaware.
+
+10. FORCE MAJEURE
+
+Neither party shall be liable for any delay or failure to perform its obligations under
+this Agreement to the extent such delay or failure is caused by circumstances beyond its
+reasonable control, including but not limited to acts of God, natural disasters, war,
+terrorism, labor disputes, or government actions.
+
+11. MISCELLANEOUS
+
+11.1 Entire Agreement. This Agreement constitutes the entire agreement between the Parties
+with respect to the subject matter hereof and supersedes all prior negotiations and agreements.
+
+11.2 Anti-Assignment. Neither Party may assign this Agreement or any rights hereunder
+without the prior written consent of the other Party. Any purported assignment in violation
+hereof shall be null and void.
+
+11.3 Severability. If any provision of this Agreement is found invalid or unenforceable,
+the remaining provisions shall remain in full force and effect.
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the date first written above.
+
+ACME CORPORATION, INC.                    VENDOR LLC
+By: _______________________               By: _______________________
+Name: Jane Smith                          Name: John Doe
+Title: Chief Executive Officer            Title: Managing Member
+Date: January 15, 2024                   Date: January 15, 2024

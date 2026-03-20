@@ -1,0 +1,69 @@
+version: "3.9"
+
+services:
+  # ── PostgreSQL ────────────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: lexiscan_postgres
+    environment:
+      POSTGRES_DB: lexiscan_db
+      POSTGRES_USER: lexiscan_user
+      POSTGRES_PASSWORD: lexiscan_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lexiscan_user -d lexiscan_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Backend (FastAPI) ─────────────────────────────────────
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: lexiscan_backend
+    environment:
+      DATABASE_URL: postgresql://lexiscan_user:lexiscan_pass@postgres:5432/lexiscan_db
+      API_HOST: 0.0.0.0
+      API_PORT: 8000
+      ALLOWED_ORIGINS: http://localhost:8501
+      MODEL_CACHE_DIR: /app/data/models
+      UPLOAD_DIR: /app/data/uploads
+    ports:
+      - "8000:8000"
+    volumes:
+      - model_cache:/app/data/models
+      - upload_data:/app/data/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ── Frontend (Streamlit) ──────────────────────────────────
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: lexiscan_frontend
+    environment:
+      API_BASE_URL: http://backend:8000
+      STREAMLIT_SERVER_PORT: 8501
+      STREAMLIT_SERVER_ADDRESS: 0.0.0.0
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  model_cache:
+  upload_data:
